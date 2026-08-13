@@ -179,7 +179,7 @@ namespace DSP_CustomFastStart.CustomFastStart.Patchers
             {
                 if (!GameMain.data.history.TechUnlocked(techId))
                 {
-                    GameMain.data.history.UnlockTechUnlimited(techId, true);
+                    GameMain.data.history.UnlockTechUnlimitedWithAllPre(techId);
                     unlockedCount++;
                 }
             }
